@@ -1,0 +1,41 @@
+Suporte TOTVS, boa noite meu nome é Daiana, com quem eu falo?
+
+Data: 20/04
+chamado: Erro na porta SAT, erro: -2
+NOME:Gustavo Prado
+RESTAURANTE/FRANQUIA:GC SHOPPING TAMBORE
+CNPJ: 34.894.871/0001-18
+TELEFONE:(11)98345-0002
+AnyDesk: 124 849 279
+
+========================================================
+
+Data: 20/04
+chamado: Replicar responsabilidades do perfil caixa
+NOME: Andre 
+RESTAURANTE/FRANQUIA: PRIMO COZINHA DIVINA
+CNPJ: 17.011.445/0001-70
+TELEFONE: (19)997488694
+AnyDesk: 734395214
+
+========================================================
+
+Data: 20/04
+chamado: Problema de integração com pagamento Pix WABIZ
+NOME: 
+RESTAURANTE/FRANQUIA: MR TEXAS JD SP
+CNPJ: 13.316.791/0001-05
+TELEFONE:(11)2959-6272
+AnyDesk: 487944444
+
+========================================================
+
+Data: 20/04
+chamado: Notas do Ifood não estão fazendo integração com o sistema PDV mapa de Entregas
+NOME: Luzia
+RESTAURANTE/FRANQUIA: NAGAIRO AGUA BRANCA
+CNPJ: 31.812.367/0001-33
+TELEFONE:(11) 4800-4141
+AnyDesk: 559257506
+
+=========================================================

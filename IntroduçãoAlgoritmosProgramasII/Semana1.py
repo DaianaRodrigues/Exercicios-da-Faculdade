@@ -29,3 +29,26 @@ import turtle
 s = turtle.Screen()
 t = turtle.Turtle()
 olimpiadas(t)
+
+#Exercicio 4.8
+def palavras(nomeArq):
+#retorna a lista de palavras reais, sem pontos
+    arqEntrada = open('Telefone-20-04.txt', 'r')
+    conteúdo = arqEntrada.read()
+    arqEntrada.close()
+    tabela = str.maketrans('!,.:;?', 6*' ')
+    conteúdo=conteúdo.translate(tabela)
+    conteúdo=conteúdo.lower()
+    return conteúdo.split()
+
+print(palavras)
+
+#Exercicio 4.9
+def meuGrep(nomeArq, alvo):
+#exibe cada linha do arquivo que contém a string alvo
+    arqEntrada = open('Telefone-20-04.txt')
+    for linha in arqEntrada:
+        if alvo in linha:
+            print(linha, end='')
+
+    return linha.split()
