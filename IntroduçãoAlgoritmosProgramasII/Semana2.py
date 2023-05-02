@@ -15,8 +15,8 @@ class Point:
         self.y += dy
 
     #Exercicio 8.1
-    def getx(self, coorx):
-        self.x = coorx
+    def getx(self):
+        return self.coordx
 
 #EXERCICIO 8.2
 class teste:
@@ -28,24 +28,12 @@ class retangulo:
         self.larg = largura
         self.compri = comprimento
 
-    def setPerimetro(self, perimetro):
-        self.peri =
+    def setPerimetro(self):
+        return 2*(self.larg + self.compri)
 
-    def setArea(self,  area):
-        self.ar = self.largura * self.comprimento
+    def setArea(self):
+        return self.compri * self.larg
 
-
-#Exercicio 8.4
-class animal:
-    def setEspecie(self, especie):
-        self.esp = especie
-
-    def setLinguagem(self, linguagem):
-        self.ling = linguagem
-
-    def fla(self):
-    #exibe uma sentença pelo animal
-        print('IEu sou um {} e sei {}'.format(self.esp, self.ling))
 
 
 
