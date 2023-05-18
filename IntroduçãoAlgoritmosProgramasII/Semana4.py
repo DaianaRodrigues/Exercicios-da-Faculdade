@@ -46,7 +46,6 @@ print(contaPalavra('Oi Mundo'))
 #Exercicio 6.5
 def lookup(agenda):
     #implementa serviço de agenda interativo usando o dicionário de agenda como entrada
-    agenda = {('Anna', 'Karenina'): '(123)456-78-90', ('Yu', 'Tsun'): '(901)234-56-78', ('Hans', 'Castorp'):'(321)908-76-54)'}
     while True:
         nome = input('Digite o nome ')
         sobrenome = input('Digite o sobrenome ')
@@ -55,9 +54,10 @@ def lookup(agenda):
             print(agenda[pessoa])# mostra o valor
         else: # se chave ausente do dicionário
             print('O nome informado não é conhecido.')
-
     return
-
+agenda1 = {('Anna', 'Karenina'): '(123)456-78-90', ('Yu', 'Tsun'): '(901)234-56-78', ('Hans', 'Castorp'):'(321)908-76-54)'}
+lookup(agenda1)
+print(agenda1)
 
 #Exercicio 6.6
 def sync(agendas):
