@@ -109,25 +109,30 @@ def drawSnowflake(n):
         t.rt(120)
     s.bye()
 
+
 def power(a, n):
     res = 1
     for i in range(n):
         res *= a
     return res
 
+
 def rpower(a, n):
     global counter
 
     if n == 0:
         return 1
-    tmp = rpower(a, n//2)
+    tmp = rpower(a, n // 2)
 
     if n % 2 == 0:
-        return tmp*tmp
+        return tmp * tmp
     else:
-        return a*tmp*tmp
+        return a * tmp * tmp
+
 
 import time
+
+
 def timing(func, n):
     funcInput = buildInput(n)
 
@@ -137,9 +142,10 @@ def timing(func, n):
 
     return end - start
 
-def buildInput(n):
 
+def buildInput(n):
     return n
+
 
 def timingAnalysis(func, start, stop, inc, runs):
     for n in range(start, stop, inc):
@@ -149,4 +155,18 @@ def timingAnalysis(func, start, stop, inc, runs):
             acc += timing(func, n)
 
         formatStr = 'Tempo de execução de {}({}) é {:.7f} segundos.'
-        print(formatStr.format(func.__name__, n, acc/runs))
+        print(formatStr.format(func.__name__, n, acc / runs))
+
+
+# Exercicio 10.6
+def power2(n):
+    return power(2, n)
+
+
+def rpower2(n):
+    return rpower(2, n)
+
+
+def pow2(n):
+    return 2 ** n
+
